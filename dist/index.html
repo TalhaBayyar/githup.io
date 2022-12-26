@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/dist/output.css">
     <link rel="stylesheet" href="/src/style.css">
+    <link rel="stylesheet" href="/src/demos.css">
+    <script src="/src/typed.js"></script>
+    <script src="/src/demos.js" text="javascript"></script>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Permanent+Marker&display=swap" rel="stylesheet">
  
@@ -46,14 +49,16 @@
             </div>
 
               <!-- ---------Personal Description Start--------- -->
-              <div class="relative  mt-28">
-                  <p class="text-[#dcebf3] --tw-text-opacity: 15; text-[30px] text-center">
-                  Fron-End Developer<br>
-                    <p class="text-[#dcebf3] --tw-text-opacity: 15; text-[56px] text-center">Hi, I'm <span class="text-[#dcebf3] --tw-text-opacity: 15; font-bold  shadow-lg shadow-cyan-500">Talha</span><br>
-                      From Turkey
-                    </p>
-                  </p>
+              
+              <div class="relative mt-28 text-center">
+                  <span class=" font-bold shadow-lg shadow-cyan-500 developer text-4xl">
+            
+                   
+                  </span>
               </div>
+
+
+
               <!-- ---------Personal Description End--------- -->
 
             </div>
@@ -425,8 +430,15 @@
 
 
     <script src="/src/script.js"></script>
-
-
+    
+    <script>
+     var typed = new Typed('.developer', {
+            strings: ["", "Front End Developer", "Hi, I'm Talha From Turkey"],
+            typeSpeed:200,
+            BackSpeed:60,
+            loop:true
+        });
+    </script>
 
     <script src="https://kit.fontawesome.com/e5780d148b.js" crossorigin="anonymous"></script>
     
